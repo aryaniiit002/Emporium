@@ -123,7 +123,7 @@ const Product = () => {
                     <Desc>
                         Description of the product.
                     </Desc>
-                    <Price>$ 20</Price>
+                    <Price>₹ 200</Price>
                     <FilterContainer>
                         <Filter>
                             <FilterTitle>Color</FilterTitle>
