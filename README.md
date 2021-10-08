@@ -2,7 +2,7 @@
 
 ### Front-end for an e-commerce clothes selling website.
 
-[DEMO]()
+[DEMO](https://emporium-ecommerce.netlify.app/)
 <br>
 
 ## App Functionality
