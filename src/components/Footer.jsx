@@ -1,3 +1,4 @@
+import styled from "styled-components";
 import {
     Facebook,
     Instagram,
@@ -7,7 +8,7 @@ import {
     Room,
     Twitter,
 } from "@material-ui/icons";
-import styled from "styled-components";
+
 import { mobile } from "../responsive";
 
 const Container = styled.div`

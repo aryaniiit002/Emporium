@@ -1,5 +1,6 @@
-import { Send } from "@material-ui/icons";
 import styled from "styled-components";
+
+import { Send } from "@material-ui/icons";
 import { mobile } from "../responsive";
 
 const Container = styled.div`

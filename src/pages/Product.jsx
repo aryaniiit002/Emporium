@@ -1,9 +1,13 @@
-import { Add, Remove } from "@material-ui/icons";
 import styled from "styled-components";
-import Announcement from "../components/Announcement";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
-import Newsletter from "../components/Newsletter";
+
+import {
+  Announcement,
+  Footer,
+  Navbar,
+  Newsletter,
+} from "../components";
+
+import { Add, Remove } from "@material-ui/icons";
 import { mobile } from "../responsive";
 
 const Container = styled.div``;
@@ -11,7 +15,7 @@ const Container = styled.div``;
 const Wrapper = styled.div`
   padding: 50px;
   display: flex;
-  ${mobile({ padding: "10px", flexDirection:"column" })}
+  ${mobile({ padding: "10px", flexDirection: "column" })}
 `;
 
 const ImgContainer = styled.div`
@@ -116,52 +120,52 @@ const Button = styled.button`
 
 
 const Product = () => {
-    return (
-        <Container>
-            <Navbar />
-            <Announcement />
-            <Wrapper>
-                <ImgContainer>
-                    <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
-                </ImgContainer>
-                <InfoContainer>
-                    <Title>Denim Jumpsuit</Title>
-                    <Desc>
-                        Description of the product.
-                    </Desc>
-                    <Price>₹ 200</Price>
-                    <FilterContainer>
-                        <Filter>
-                            <FilterTitle>Color</FilterTitle>
-                            <FilterColor color="black" />
-                            <FilterColor color="darkblue" />
-                            <FilterColor color="gray" />
-                        </Filter>
-                        <Filter>
-                            <FilterTitle>Size</FilterTitle>
-                            <FilterSize>
-                                <FilterSizeOption>XS</FilterSizeOption>
-                                <FilterSizeOption>S</FilterSizeOption>
-                                <FilterSizeOption>M</FilterSizeOption>
-                                <FilterSizeOption>L</FilterSizeOption>
-                                <FilterSizeOption>XL</FilterSizeOption>
-                            </FilterSize>
-                        </Filter>
-                    </FilterContainer>
-                    <AddContainer>
-                        <AmountContainer>
-                            <Remove />
-                            <Amount>1</Amount>
-                            <Add />
-                        </AmountContainer>
-                        <Button>ADD TO CART</Button>
-                    </AddContainer>
-                </InfoContainer>
-            </Wrapper>
-            <Newsletter />
-            <Footer />
-        </Container>
-    );
+  return (
+    <Container>
+      <Navbar />
+      <Announcement />
+      <Wrapper>
+        <ImgContainer>
+          <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
+        </ImgContainer>
+        <InfoContainer>
+          <Title>Denim Jumpsuit</Title>
+          <Desc>
+            Description of the product.
+          </Desc>
+          <Price>₹ 200</Price>
+          <FilterContainer>
+            <Filter>
+              <FilterTitle>Color</FilterTitle>
+              <FilterColor color="black" />
+              <FilterColor color="darkblue" />
+              <FilterColor color="gray" />
+            </Filter>
+            <Filter>
+              <FilterTitle>Size</FilterTitle>
+              <FilterSize>
+                <FilterSizeOption>XS</FilterSizeOption>
+                <FilterSizeOption>S</FilterSizeOption>
+                <FilterSizeOption>M</FilterSizeOption>
+                <FilterSizeOption>L</FilterSizeOption>
+                <FilterSizeOption>XL</FilterSizeOption>
+              </FilterSize>
+            </Filter>
+          </FilterContainer>
+          <AddContainer>
+            <AmountContainer>
+              <Remove />
+              <Amount>1</Amount>
+              <Add />
+            </AmountContainer>
+            <Button>ADD TO CART</Button>
+          </AddContainer>
+        </InfoContainer>
+      </Wrapper>
+      <Newsletter />
+      <Footer />
+    </Container>
+  );
 };
 
 export default Product;
