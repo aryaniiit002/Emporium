@@ -8,7 +8,7 @@ import {
     Products,
 } from "../components";
 
-import { mobile } from "../responsive";
+import { mobile } from "../assets/responsive";
 
 const Container = styled.div``;
 

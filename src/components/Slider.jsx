@@ -2,9 +2,9 @@ import { useState } from "react";
 import styled from "styled-components";
 
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
-import { sliderItems } from "../data";
+import { sliderItems } from "../assets/data";
 
-import { mobile } from "../responsive";
+import { mobile } from "../assets/responsive";
 
 const Container = styled.div`
   width: 100%;

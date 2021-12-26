@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { mobile } from "../responsive";
+import { mobile } from "../assets/responsive";
 
 const Container = styled.div`
   flex: 1;

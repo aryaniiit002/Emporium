@@ -9,7 +9,7 @@ import {
     Twitter,
 } from "@material-ui/icons";
 
-import { mobile } from "../responsive";
+import { mobile } from "../assets/responsive";
 
 const Container = styled.div`
   display: flex;

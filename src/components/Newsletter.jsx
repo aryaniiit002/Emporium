@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 import { Send } from "@material-ui/icons";
-import { mobile } from "../responsive";
+import { mobile } from "../assets/responsive";
 
 const Container = styled.div`
   height: 60vh;
